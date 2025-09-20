@@ -23,19 +23,19 @@
 ## 데이터 증장& 모델 규제
   증강 :  
      상하반전( p=50 )
-     좌우회전( degree = -90~90, p=0.5 )  
-     RGB shift( range=-25~25, p=0.9 )
+     좌우회전( degree = \-90~90, p=0.5 )  
+     RGB shift( range=\-25~25, p=0.9 )
      Random Crop( p=0.25 ), Mixup( p=0.5 )
      CutMix( p=0.5 )  
   규제 : 
       Label smoothing : 0.1 
       Weight decay : 0.05
 ## 모델 학습
-Objective function : binary classification loss with logits
-Learning rate: 4번에 걸친 Cosine Annealing Scheduling
-<img width="521" height="75" alt="image" src="https://github.com/user-attachments/assets/46b89fae-8b2a-48e6-ba20-1ff44124108d" />
+Objective function : binary classification loss with logits  
+Learning rate: 4번에 걸친 Cosine Annealing Scheduling  
+<img width="521" height="100" alt="image" src="https://github.com/user-attachments/assets/46b89fae-8b2a-48e6-ba20-1ff44124108d" />
 
-<img width="1960" height="796" alt="image" src="https://github.com/user-attachments/assets/d6d496e5-b6b5-4baf-b7f9-b4e7bb053ab7" />
+<img width="1000" height="450" alt="image" src="https://github.com/user-attachments/assets/d6d496e5-b6b5-4baf-b7f9-b4e7bb053ab7" />
 
 ## 결과 시각화
 <img width="1956" height="681" alt="image" src="https://github.com/user-attachments/assets/079d9192-d75b-4de3-a0be-9b8be2e32d75" />
