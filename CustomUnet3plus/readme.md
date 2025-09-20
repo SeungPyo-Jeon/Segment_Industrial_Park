@@ -1,4 +1,6 @@
-## Custom Unet3+
+# Custom Unet3+
+## 데이터 전처리
+## 모델 구조
 <div class="pull-left">
    <img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/f667f3b0-6b20-4d91-9ee8-901f6e90f866" />
 </div>
