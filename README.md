@@ -8,8 +8,10 @@ Aihub- [ 대기오염 배출원 공간 분포 데이터 ](https://www.aihub.or.k
  
 ## Method - 효과적인 Mapping function 𝑓 를 찾기 위해서 
 - 입력 이미지의 해상도는 10m로, 하나의10m2 영역이 4개의 값으로 측정됨산업단지는 대규모로 이뤄져 있기 때문에 여러 픽셀들이 모여 만들어지는 텍스쳐가 중요함  
-   ➥ 주변 local signal부터 global한 signal을 모두 아우르는 receptive field 크기 필요할 것.  
+   ➥ 주변 local signal부터 global한 signal을 모두 아우르는 receptive field 크기 필요할 것.
+    
 - 측정 센서와 지표면까지 사이의 여러 영향( 대기 조건, 광량 등 )에 의해 값이 변화될 수 있음 ➞ 이미 보정이 이뤄진 Sentinel-2 위성 이미지임에도 완전한 제거가 불가능함  
-   ➥ noisy value에 대해 흔들리지 않는 robustness  
-기존 전통적인 위성 이미지를 통한 분석에서 밴드간 조합이 중요했음 ( NDVI )  
+   ➥ noisy value에 대해 흔들리지 않는 robustness
+    
+- 기존 전통적인 위성 이미지를 통한 분석에서 밴드간 조합이 중요했음 ( NDVI )  
    ➥ 4개의 밴드를 효과적으로 융합하여 특징을 추출할 수 있는 아키텍쳐  
