@@ -18,5 +18,5 @@ Aihub- [ 대기오염 배출원 공간 분포 데이터 ](https://www.aihub.or.k
 - 기존 전통적인 위성 이미지를 통한 분석에서 밴드간 조합이 중요했음 ( NDVI )  
    ➥ 4개의 밴드를 효과적으로 융합하여 특징을 추출할 수 있는 아키텍쳐  
 
- ### 접근법 1: [Custom UNet3+](blob/main/CustomUnet3plus/readme.md)  
+ ### 접근법 1: [Custom UNet3+](CustomUnet3plus/readme.md)  
  
