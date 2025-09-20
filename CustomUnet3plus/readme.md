@@ -1,5 +1,8 @@
 # Custom Unet3+
 ## 데이터 전처리
+   광센서 값을 갖는 Uint16 raw data ( R, G, B, NIR )  
+   ➞ 백분위 2, 98 값을 기준으로 MinMax scaling을 거쳐 0~255로 범위 지정. 4채널을 가진 이미지로 다루기 위함  
+   
 ## 모델 구조
 <div class="pull-left">
    <img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/f667f3b0-6b20-4d91-9ee8-901f6e90f866" />
