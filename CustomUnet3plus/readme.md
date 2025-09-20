@@ -27,7 +27,7 @@
 - Random Crop( p=0.25 ), Mixup( p=0.5 )  
 - CutMix( p=0.5 )  
   
-  규제 :    
+규제 :    
 - Label smoothing : 0.1  
 - Weight decay : 0.05  
 ## 모델 학습
