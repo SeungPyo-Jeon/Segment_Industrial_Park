@@ -1,9 +1,8 @@
 # Custom Unet3+
 ## 모델 구조
-<div class="pull-left">
-   <img width="500" height="350" alt="Image" src="https://github.com/user-attachments/assets/f667f3b0-6b20-4d91-9ee8-901f6e90f866" />
-</div>
-<div class="pull-right">  
+
+<img width="500" height="350" alt="Image" src="https://github.com/user-attachments/assets/f667f3b0-6b20-4d91-9ee8-901f6e90f866" />  
+
 - 4번의 down sampling ➞ up sampling  
    Unet3+[1] 구조 차용하여 피라미드 형식의 dense feature map을 얻고, 이것을 5단계에 걸쳐 global에서 local로의 feature 참조하며 up scaling해 모델이 넓은 receptive field를 반영할 수 있게 함
 
