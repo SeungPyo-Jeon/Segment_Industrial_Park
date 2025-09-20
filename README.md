@@ -7,7 +7,7 @@ Aihub- [ 대기오염 배출원 공간 분포 데이터 ](https://www.aihub.or.k
 평가지표: 모델 출력에 sigmoid 적용 후 threshold=0.5를 기준으로 MIoU 산정  
  
 ## Method - 효과적인 Mapping function 𝑓 를 찾기 위해서 
-- 입력 이미지의 해상도는 10m로, 하나의10m2 영역이 4개의 값으로 측정됨
+- 입력 이미지의 해상도는 10m로, 하나의10m2 영역이 4개의 값으로 측정됨  
   산업단지는 대규모로 이뤄져 있기 때문에 여러 픽셀들이 모여 만들어지는 텍스쳐가 중요함  
    ➥ 주변 local signal부터 global한 signal을 모두 아우르는 receptive field 크기 필요할 것.
     
