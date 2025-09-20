@@ -21,14 +21,14 @@
    
 ## 데이터 증장& 모델 규제
   증강 :  
-      - 상하반전( p=50 )  
-      - 좌우회전( degree = \-90\~90, p=0.5 )  
-      - RGB shift( range=\-25\~25, p=0.9 )  
-      - Random Crop( p=0.25 ), Mixup( p=0.5 )  
-      - CutMix( p=0.5 )  
+- 상하반전( p=50 )  
+- 좌우회전( degree = \-90\~90, p=0.5 )  
+- RGB shift( range=\-25\~25, p=0.9 )  
+- Random Crop( p=0.25 ), Mixup( p=0.5 )  
+- CutMix( p=0.5 )  
   규제 : 
-      - Label smoothing : 0.1  
-      - Weight decay : 0.05  
+- Label smoothing : 0.1  
+- Weight decay : 0.05  
 ## 모델 학습
 Objective function : binary classification loss with logits  
 Learning rate: 4번에 걸친 Cosine Annealing Scheduling  
